@@ -15,6 +15,7 @@ It demonstrates an object-oriented approach using a simple MVC (Model-View-Contr
 
 ## Project Structure
 
+```plaintext
 project-root/
 ├── .codesandbox/                # CodeSandbox configuration (tasks, etc.)
 │   └──tasks.json                # Tasks
@@ -43,6 +44,7 @@ project-root/
 ├── index.php                    # Entry point (can delegate to /core/index.php)
 ├── README.md                    # Project description and usage
 └── … (other static files)
+```
 
 ## Requirements
 
