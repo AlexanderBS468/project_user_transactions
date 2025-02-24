@@ -136,7 +136,7 @@ HTML;
         }
 
         $responseHtml = '<table>';
-        $responseHtml .= sprintf('<tr><th>%s</th><th>%d</th>', 'Mounth', 'Amount');
+        $responseHtml .= sprintf('<tr><th>%s</th><th>%s</th>', 'Mounth', 'Amount');
         
         if ($this->responseData['success'] && !empty($this->responseData['result']))
         {
